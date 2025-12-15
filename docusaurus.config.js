@@ -147,15 +147,19 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          // {
-          //   title: 'Docs',
-          //   items: [
-          //     {
-          //       label: 'Tutorial',
-          //       to: '/docs/intro',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Docs',
+            items: [
+              {
+                label: 'Tutorial intro',
+                to: '/docs/tutorials/intro',
+              },
+              {
+                label: 'My Pet Store intro',
+                to: '/docs/my_petStore/petstore_intro',
+              },
+            ],
+          },
           {
             title: 'Community',
             items: [
