@@ -20,15 +20,16 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://github.com',
+  url: 'https://daviatus.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/daviatus/tw_pj_work/',
+  baseUrl: '/tw_pj_work/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'daviatus', // Usually your GitHub org/user name.
+  projectName: 'tw_pj_work', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
