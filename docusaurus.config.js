@@ -90,10 +90,17 @@ const config = {
         },
         items: [
           {
+            to: '/docs/tutorials/intro',
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'petStoreSidebar',
+            position: 'left',
+            label: 'Pet Store',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -101,6 +108,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://github.com/daviatus/tw_pj_work',
+            label: 'Repository',
+            position: 'right',
+          }
         ],
       },
       footer: {
